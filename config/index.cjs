@@ -19,11 +19,11 @@ const USER_CONFIG = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: '宝贝',
+      name: 'Ray',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'ojfKd59wmC2uXfwFCCbXs8sv3sxI',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'JkNnaeOqS61_nZ6e2nFyiXR9_-sOm9Ku9f1p2GqWZH0',
+      useTemplateId: 'qRE0BJd6WTX4EFoPLtZW5pExR2TcF9APMBrrNNRXHTA',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '08-25',
       festivals: [
@@ -42,35 +42,13 @@ const USER_CONFIG = {
         { keyword: 'love_day', date: '2022-05-02' },
         // 相遇
         { keyword: 'meet_day', date: '2022-03-19' },
+        // easter
+        { keyword: 'easter_day', date: '2023-04-09' },
+        // Chinese new year
+        { keyword: 'cnew_year_day', date: '2023-01-22' },
       ],
     },
-    {
-      // 想要发送的人的名字
-      name: '宝贝',
-      // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'ojfKd58PkrR6rtNZr6j6YjufzQSA',
-      // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'JkNnaeOqS61_nZ6e2nFyiXR9_-sOm9Ku9f1p2GqWZH0',
-      // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
-      horoscopeDate: '08-25',
-      festivals: [
-        // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-        {
-          type: '生日', name: '宝贝', year: '1996', date: '08-25',
-        },
-        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-        // {
-          // type: '节日', name: '相遇', year: '2022', date: '03-19',
-        // },
-      ],
-      // 我们在一起已经有xxxx天了的配置
-      customizedDateList: [
-        // 在一起的日子
-        { keyword: 'love_day', date: '2022-05-02' },
-        // 相遇
-        { keyword: 'meet_day', date: '2022-03-19' },
-      ],
-    },
+
   ],
 
 
