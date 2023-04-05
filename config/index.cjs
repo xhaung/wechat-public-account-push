@@ -46,6 +46,8 @@ const USER_CONFIG = {
         { keyword: 'easter_day', date: '2023-04-09' },
         // Chinese new year
         { keyword: 'cnew_year_day', date: '2023-01-22' },
+        // Going back home
+        { keyword: 'home_day', date: '2023-04-28' },
       ],
     },
     {
@@ -77,6 +79,8 @@ const USER_CONFIG = {
         { keyword: 'easter_day', date: '2023-04-09' },
         // Chinese new year
         { keyword: 'cnew_year_day', date: '2023-01-22' },
+        // Going back home
+        { keyword: 'home_day', date: '2023-04-28' },
       ],
     },
   ],
