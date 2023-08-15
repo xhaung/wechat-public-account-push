@@ -23,7 +23,7 @@ const USER_CONFIG = {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'ojfKd58PkrR6rtNZr6j6YjufzQSA',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'ZLUr4kPLUXS7xqe3ghIOSEWrj9V7Z-_YDFihtyRvga4',
+      useTemplateId: '00L5ffJ08cfbrmrMYl9UERZAmmSB84WaD3JHfuxNtY4',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '08-26',
       festivals: [
@@ -45,9 +45,7 @@ const USER_CONFIG = {
         // easter
         { keyword: 'easter_day', date: '2023-04-09' },
         // Chinese new year
-        { keyword: 'cnew_year_day', date: '2023-01-22' },
-        // Going back home
-        { keyword: 'home_day', date: '2023-04-28' },
+        { keyword: 'cnew_year_day', date: '2023-01-22' }
       ],
     }
   ],
